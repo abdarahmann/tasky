@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tasky/features/auth/views/login_view.dart';
 
 import '../../features/onboarding/onboarding_screen.dart';
 
@@ -16,7 +17,7 @@ class RoutesManager {
       case Routes.splash:
         return MaterialPageRoute(builder: (_) => const Scaffold());
       case Routes.login:
-        return MaterialPageRoute(builder: (_) => const Scaffold());
+        return MaterialPageRoute(builder: (_) => const LoginView());
       case Routes.home:
         return MaterialPageRoute(builder: (_) => const Scaffold());
       case Routes.onboarding:
